@@ -35,3 +35,6 @@ logs/
 
 # Template directories
 solutions/
+
+
+.env.docker
