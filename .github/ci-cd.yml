@@ -289,7 +289,7 @@ jobs:
       # L'app communique maintenant avec PostgreSQL (plus réaliste)
       # Module 7: Tester l'orchestration
       - name: Verify web application is responding
-        run: curl -f http://localhost:3000/health || exit 1
+        run: curl -f http://localhost:3000/health
           # Tâche : Quelle commande? 
           # Tâche: Quel endpoint? Conseil: Même que dockerfile-verify
       
